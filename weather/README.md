@@ -7,7 +7,7 @@ Cli-Weather is a free client to display the current and forecast weather on your
 
 ## Table of content
 
-- [Features](#Features)
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
     - [Examples](#examples)

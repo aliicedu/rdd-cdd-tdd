@@ -9,6 +9,13 @@ var args = require('./args'),
 var path = pathing.dirname(require.main.filename) + '/lib/config.json',
     help = require('./help');
 
+
+/**
+ * Configuration
+ * @constructor
+ * @param units - with the type, temperature, speed 
+ * @param {int} ip - ip address
+ */
 function Config(units, ip) {
     this.args = parseArgs(process.argv.slice(2));
     this.units = units;
